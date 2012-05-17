@@ -2230,8 +2230,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWR_OFF">
 <contactref element="R6" pad="2"/>
-<contactref element="U1" pad="16"/>
-<wire x1="29.35" y1="43.2" x2="43.5" y2="51.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$23">
 <contactref element="D1" pad="A"/>
@@ -2244,8 +2242,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="PWR_ON_µC">
 <contactref element="D2" pad="A"/>
-<contactref element="U1" pad="15"/>
-<wire x1="25.5" y1="35.1" x2="43" y2="51.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U$1" pad="3"/>
@@ -2267,15 +2263,6 @@ design rules under a new name.</description>
 </signal>
 <signal name="USART2_TX">
 <contactref element="U1" pad="9"/>
-</signal>
-<signal name="MOT2">
-<contactref element="U1" pad="20"/>
-</signal>
-<signal name="MOT3">
-<contactref element="U1" pad="29"/>
-</signal>
-<signal name="MOT1">
-<contactref element="U1" pad="8"/>
 </signal>
 <signal name="MOT4">
 <contactref element="U1" pad="32"/>

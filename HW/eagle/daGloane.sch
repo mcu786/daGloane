@@ -10848,7 +10848,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="GND50" gate="1" x="60.96" y="160.02" rot="MR0"/>
 <instance part="GND51" gate="1" x="55.88" y="160.02"/>
 <instance part="3.3V6" gate="VCC" x="48.26" y="180.34" rot="MR0"/>
-<instance part="GND1" gate="1" x="116.84" y="83.82" rot="MR0"/>
+<instance part="GND1" gate="1" x="132.08" y="83.82" rot="MR0"/>
 <instance part="GND6" gate="1" x="116.84" y="17.78" rot="MR0"/>
 <instance part="X2" gate="G$1" x="233.68" y="66.04" rot="R180"/>
 </instances>
@@ -11074,8 +11074,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="GND51" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="86.36" x2="116.84" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="88.9" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="86.36" x2="132.08" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="88.9" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="U1" gate="PORTB_L" pin="PB2"/>
 </segment>
@@ -11204,10 +11204,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="R18" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="119.38" y1="170.18" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="170.18" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="154.94" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
-<label x="119.34" y="170.14" size="1.778" layer="95" rot="MR180" xref="yes"/>
+<wire x1="119.38" y1="165.1" x2="106.68" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="165.1" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="154.94" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
+<label x="119.34" y="165.06" size="1.778" layer="95" rot="MR180" xref="yes"/>
 <pinref part="U1" gate="PORTA_L" pin="PA0"/>
 </segment>
 </net>
@@ -11287,10 +11287,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="27.94" y="30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="119.38" y1="114.3" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="114.3" x2="116.84" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="111.76" x2="101.6" y2="111.76" width="0.1524" layer="91"/>
-<label x="119.34" y="114.34" size="1.778" layer="95" xref="yes"/>
+<wire x1="119.38" y1="111.76" x2="114.3" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="111.76" x2="101.6" y2="111.76" width="0.1524" layer="91"/>
+<label x="119.34" y="111.8" size="1.778" layer="95" xref="yes"/>
 <pinref part="U1" gate="PORTA_H" pin="PA13"/>
 </segment>
 </net>
@@ -11301,8 +11300,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="27.94" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="119.38" y1="109.22" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
-<label x="119.34" y="109.26" size="1.778" layer="95" xref="yes"/>
+<wire x1="119.38" y1="106.68" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="106.68" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="109.22" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
+<label x="119.34" y="106.72" size="1.778" layer="95" xref="yes"/>
 <pinref part="U1" gate="PORTA_H" pin="PA14"/>
 </segment>
 </net>
@@ -11572,10 +11573,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="R10" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="121.92" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
-<label x="119.42" y="124.42" size="1.778" layer="95" rot="MR180" xref="yes"/>
+<wire x1="101.6" y1="121.92" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="121.92" x2="109.22" y2="127" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="127" x2="119.38" y2="127" width="0.1524" layer="91"/>
+<label x="119.42" y="126.96" size="1.778" layer="95" rot="MR180" xref="yes"/>
 <pinref part="U1" gate="PORTA_H" pin="PA9"/>
 </segment>
 </net>
@@ -11586,8 +11587,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
-<label x="119.42" y="119.34" size="1.778" layer="95" rot="MR180" xref="yes"/>
+<wire x1="101.6" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="119.38" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="121.92" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
+<label x="119.42" y="121.88" size="1.778" layer="95" rot="MR180" xref="yes"/>
 <pinref part="U1" gate="PORTA_H" pin="PA10"/>
 </segment>
 </net>
@@ -11643,9 +11646,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="218.44" y1="127" x2="228.6" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
-<label x="119.38" y="91.44" size="1.778" layer="95" rot="MR180" xref="yes"/>
-<pinref part="U1" gate="PORTB_L" pin="PB1"/>
+<wire x1="101.6" y1="106.68" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="106.68" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="101.6" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
+<label x="119.38" y="101.6" size="1.778" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -11669,11 +11673,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="228.6" y="119.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="93.98" x2="116.84" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="93.98" x2="116.84" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
-<label x="119.38" y="96.52" size="1.778" layer="95" rot="MR180" xref="yes"/>
-<pinref part="U1" gate="PORTB_L" pin="PB0"/>
+<wire x1="101.6" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
+<label x="119.38" y="116.84" size="1.778" layer="95" rot="MR180" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11727,29 +11729,24 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="MOT2" class="0">
 <segment>
-<pinref part="U1" gate="PORTA_H" pin="PA8"/>
-<wire x1="101.6" y1="124.46" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="124.46" x2="114.3" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="129.54" x2="119.38" y2="129.54" width="0.1524" layer="91"/>
-<label x="119.38" y="129.54" size="1.778" layer="95" xref="yes"/>
+<wire x1="101.6" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
+<label x="119.38" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOT3" class="0">
 <segment>
-<pinref part="U1" gate="PORTA_H" pin="PA15"/>
-<wire x1="101.6" y1="106.68" x2="116.84" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="106.68" x2="116.84" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="104.14" x2="119.38" y2="104.14" width="0.1524" layer="91"/>
-<label x="119.38" y="104.14" size="1.778" layer="95" xref="yes"/>
+<wire x1="101.6" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="83.82" x2="111.76" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
+<label x="119.38" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOT1" class="0">
 <segment>
-<pinref part="U1" gate="PORTA_L" pin="PA1"/>
-<wire x1="101.6" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="152.4" x2="106.68" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="165.1" x2="119.38" y2="165.1" width="0.1524" layer="91"/>
-<label x="119.38" y="165.1" size="1.778" layer="95" xref="yes"/>
+<wire x1="101.6" y1="93.98" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="93.98" x2="111.76" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
+<label x="119.38" y="96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOT4" class="0">
