@@ -8899,7 +8899,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="1k"/>
-<part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="LED3" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="LED4" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_0805"/>
@@ -10779,7 +10778,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="R5" gate="G$1" x="309.88" y="208.28"/>
 <instance part="R9" gate="G$1" x="353.06" y="68.58"/>
 <instance part="R10" gate="G$1" x="353.06" y="60.96"/>
-<instance part="GND24" gate="1" x="375.92" y="154.94"/>
 <instance part="LED3" gate="G$1" x="172.72" y="33.02"/>
 <instance part="LED4" gate="G$1" x="185.42" y="33.02"/>
 <instance part="LED1" gate="G$1" x="360.68" y="50.8" rot="R270"/>
@@ -10950,17 +10948,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="325.12" y1="177.8" x2="317.5" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="177.8" x2="317.5" y2="175.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="375.92" y1="213.36" x2="375.92" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="208.28" x2="375.92" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="203.2" x2="375.92" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="198.12" x2="375.92" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="193.04" x2="375.92" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="187.96" x2="375.92" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="182.88" x2="375.92" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="177.8" x2="375.92" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="1"/>
