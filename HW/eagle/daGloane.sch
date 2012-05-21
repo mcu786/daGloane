@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11882,6 +11882,7 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <segment>
 <wire x1="195.58" y1="-251.46" x2="193.04" y2="-251.46" width="0.1524" layer="91"/>
 <label x="193.04" y="-251.46" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R22" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="USART2_TX" class="0">
@@ -11896,6 +11897,7 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <segment>
 <wire x1="195.58" y1="-259.08" x2="193.04" y2="-259.08" width="0.1524" layer="91"/>
 <label x="193.04" y="-259.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R23" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="MOT2" class="0">
