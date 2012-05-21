@@ -69,7 +69,7 @@
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="97" name="Info" color="7" fill="1" visible="no" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="yes"/>
 <layer number="99" name="Anatomie" color="7" fill="1" visible="no" active="yes"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
@@ -7752,6 +7752,65 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <text x="-3.81" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-3.81" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="BLUETOOTH">
+<wire x1="-6.35" y1="11.43" x2="6.65" y2="11.43" width="0" layer="21"/>
+<wire x1="6.65" y1="11.43" x2="6.65" y2="-15.57" width="0" layer="21"/>
+<wire x1="6.65" y1="-15.57" x2="-6.35" y2="-15.57" width="0" layer="21"/>
+<wire x1="-6.35" y1="-15.57" x2="-6.35" y2="11.43" width="0" layer="21"/>
+<smd name="P$1" x="-5.75" y="4.33" dx="1.3" dy="1.1" layer="1"/>
+<smd name="P$2" x="-5.75" y="2.83" dx="1.3" dy="1.1" layer="1"/>
+<smd name="P$3" x="-5.75" y="1.33" dx="1.3" dy="1.1" layer="1"/>
+<smd name="P$4" x="-5.75" y="-0.17" dx="1.3" dy="1.1" layer="1"/>
+<smd name="P$5" x="-5.75" y="-1.67" dx="1.3" dy="1.1" layer="1"/>
+<smd name="P$6" x="-5.75" y="-3.17" dx="1.3" dy="1.1" layer="1"/>
+<smd name="P$7" x="-5.75" y="-4.67" dx="1.3" dy="1.1" layer="1"/>
+<smd name="P$8" x="-5.75" y="-6.17" dx="1.3" dy="1.1" layer="1"/>
+<smd name="P$9" x="-5.75" y="-7.67" dx="1.3" dy="1.1" layer="1"/>
+<smd name="P$10" x="-5.75" y="-9.17" dx="1.3" dy="1.1" layer="1"/>
+<smd name="P$11" x="-5.75" y="-10.67" dx="1.3" dy="1.1" layer="1"/>
+<smd name="P$12" x="-5.75" y="-12.17" dx="1.3" dy="1.1" layer="1"/>
+<smd name="P$13" x="-5.75" y="-13.67" dx="1.3" dy="1.1" layer="1"/>
+<smd name="P$14" x="-5.05" y="-14.97" dx="1.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="P$15" x="-3.55" y="-14.97" dx="1.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="P$16" x="-2.05" y="-14.97" dx="1.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="P$17" x="-0.55" y="-14.97" dx="1.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="P$18" x="0.95" y="-14.97" dx="1.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="P$19" x="2.45" y="-14.97" dx="1.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="P$20" x="3.95" y="-14.97" dx="1.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="P$21" x="5.45" y="-14.97" dx="1.3" dy="1.1" layer="1" rot="R90"/>
+<smd name="P$22" x="6.05" y="-13.67" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="P$23" x="6.05" y="-12.17" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="P$24" x="6.05" y="-10.67" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="P$25" x="6.05" y="-9.17" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="P$26" x="6.05" y="-7.67" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="P$27" x="6.05" y="-6.17" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="P$28" x="6.05" y="-4.67" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="P$29" x="6.05" y="-3.17" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="P$30" x="6.05" y="-1.67" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="P$31" x="6.05" y="-0.17" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="P$32" x="6.05" y="1.33" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="P$33" x="6.05" y="2.83" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<smd name="P$34" x="6.05" y="4.33" dx="1.3" dy="1.1" layer="1" rot="R180"/>
+<wire x1="6" y1="6.5" x2="6" y2="11" width="0.4064" layer="23"/>
+<wire x1="6" y1="11" x2="5" y2="11" width="0.4064" layer="23"/>
+<wire x1="5" y1="11" x2="5" y2="7.5" width="0.4064" layer="23"/>
+<wire x1="5" y1="7.5" x2="4" y2="7.5" width="0.4064" layer="23"/>
+<wire x1="4" y1="7.5" x2="4" y2="11" width="0.4064" layer="23"/>
+<wire x1="4" y1="11" x2="3" y2="11" width="0.4064" layer="23"/>
+<wire x1="3" y1="11" x2="3" y2="7.5" width="0.4064" layer="23"/>
+<wire x1="3" y1="7.5" x2="2" y2="7.5" width="0.4064" layer="23"/>
+<wire x1="2" y1="7.5" x2="2" y2="11" width="0.4064" layer="23"/>
+<wire x1="2" y1="11" x2="1" y2="11" width="0.4064" layer="23"/>
+<wire x1="1" y1="11" x2="1" y2="7.5" width="0.4064" layer="23"/>
+<wire x1="1" y1="7.5" x2="0" y2="7.5" width="0.4064" layer="23"/>
+<wire x1="0" y1="7.5" x2="0" y2="11" width="0.4064" layer="23"/>
+<wire x1="0" y1="11" x2="-1" y2="11" width="0.4064" layer="23"/>
+<wire x1="-1" y1="11" x2="-1" y2="7.5" width="0.4064" layer="23"/>
+<wire x1="-1" y1="7.5" x2="-2" y2="7.5" width="0.4064" layer="23"/>
+<wire x1="-2" y1="7.5" x2="-2" y2="11" width="0.4064" layer="23"/>
+<wire x1="-2" y1="11" x2="-2.5" y2="11" width="0.4064" layer="23"/>
+<text x="-2.5" y="5.5" size="1.27" layer="25">Bluetooth</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MPU6000">
@@ -7988,6 +8047,51 @@ Source: http://onsemi.com .. MBR0520LT1-D.pdf</description>
 <pin name="GND" x="-2.54" y="0" visible="pad" length="short"/>
 <pin name="VBUS" x="-2.54" y="2.54" visible="pad" length="short"/>
 <text x="3.81" y="0" size="2.54" layer="94" rot="R90">USB</text>
+</symbol>
+<symbol name="BLUETOOTH">
+<pin name="UART-TX" x="-25.4" y="15.24" visible="pin" length="middle" direction="out"/>
+<pin name="UART-RX" x="-25.4" y="12.7" visible="pin" length="middle" direction="in"/>
+<pin name="UART-CTS" x="-25.4" y="10.16" visible="pin" length="middle" direction="in"/>
+<pin name="UART-RTS" x="-25.4" y="7.62" visible="pin" length="middle" direction="out"/>
+<pin name="PCM-CLK" x="-25.4" y="2.54" visible="pin" length="middle"/>
+<pin name="PCM-OUT" x="-25.4" y="0" visible="pin" length="middle" direction="out"/>
+<pin name="PCM-IN" x="-25.4" y="-2.54" visible="pin" length="middle" direction="in"/>
+<pin name="PCM-SYNC" x="-25.4" y="-5.08" visible="pin" length="middle"/>
+<pin name="AIO(0)" x="-25.4" y="-10.16" visible="pin" length="middle"/>
+<pin name="AIO(1)" x="-25.4" y="-12.7" visible="pin" length="middle"/>
+<pin name="RESET" x="-25.4" y="-17.78" visible="pin" length="middle" direction="in"/>
+<pin name="3.3V" x="-25.4" y="-20.32" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND" x="-25.4" y="-22.86" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND1" x="-25.4" y="-25.4" visible="pin" length="middle" direction="pwr"/>
+<pin name="USB-D-" x="10.16" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="SPI-CSB" x="10.16" y="-33.02" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="SPI-MOSI" x="10.16" y="-27.94" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="SPI-MISO" x="10.16" y="-30.48" visible="pin" length="middle" direction="out" rot="R180"/>
+<pin name="SPI-CLK" x="10.16" y="-25.4" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="USB-D+" x="10.16" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="GND2" x="-25.4" y="-27.94" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND3" x="-25.4" y="-30.48" visible="pin" length="middle" direction="pwr"/>
+<pin name="PIO(0)" x="10.16" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="PIO(2)" x="10.16" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PIO(3)" x="10.16" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PIO(4)" x="10.16" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PIO(5)" x="10.16" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="PIO(6)" x="10.16" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PIO(7)" x="10.16" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PIO(8)" x="10.16" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PIO(9)" x="10.16" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="PIO(10)" x="10.16" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="PIO(11)" x="10.16" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="PIO(1)" x="10.16" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<wire x1="-20.32" y1="15.24" x2="-20.32" y2="-34.29" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-34.29" x2="-19.05" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-19.05" y1="-35.56" x2="3.81" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-35.56" x2="5.08" y2="-34.29" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-34.29" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="2.54" y2="17.78" width="0.254" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="-17.78" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="17.78" x2="-20.32" y2="15.24" width="0.254" layer="94"/>
+<text x="-10.16" y="20.32" size="1.27" layer="95">Bluetooth</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -8752,6 +8856,54 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="BLUETOOTH">
+<gates>
+<gate name="G$1" symbol="BLUETOOTH" x="7.62" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="BLUETOOTH">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="P$12"/>
+<connect gate="G$1" pin="AIO(0)" pad="P$9"/>
+<connect gate="G$1" pin="AIO(1)" pad="P$10"/>
+<connect gate="G$1" pin="GND" pad="P$13"/>
+<connect gate="G$1" pin="GND1" pad="P$14"/>
+<connect gate="G$1" pin="GND2" pad="P$21"/>
+<connect gate="G$1" pin="GND3" pad="P$22"/>
+<connect gate="G$1" pin="PCM-CLK" pad="P$5"/>
+<connect gate="G$1" pin="PCM-IN" pad="P$7"/>
+<connect gate="G$1" pin="PCM-OUT" pad="P$6"/>
+<connect gate="G$1" pin="PCM-SYNC" pad="P$8"/>
+<connect gate="G$1" pin="PIO(0)" pad="P$23"/>
+<connect gate="G$1" pin="PIO(1)" pad="P$24"/>
+<connect gate="G$1" pin="PIO(10)" pad="P$33"/>
+<connect gate="G$1" pin="PIO(11)" pad="P$34"/>
+<connect gate="G$1" pin="PIO(2)" pad="P$25"/>
+<connect gate="G$1" pin="PIO(3)" pad="P$26"/>
+<connect gate="G$1" pin="PIO(4)" pad="P$27"/>
+<connect gate="G$1" pin="PIO(5)" pad="P$28"/>
+<connect gate="G$1" pin="PIO(6)" pad="P$29"/>
+<connect gate="G$1" pin="PIO(7)" pad="P$30"/>
+<connect gate="G$1" pin="PIO(8)" pad="P$31"/>
+<connect gate="G$1" pin="PIO(9)" pad="P$32"/>
+<connect gate="G$1" pin="RESET" pad="P$11"/>
+<connect gate="G$1" pin="SPI-CLK" pad="P$19"/>
+<connect gate="G$1" pin="SPI-CSB" pad="P$16"/>
+<connect gate="G$1" pin="SPI-MISO" pad="P$18"/>
+<connect gate="G$1" pin="SPI-MOSI" pad="P$17"/>
+<connect gate="G$1" pin="UART-CTS" pad="P$3"/>
+<connect gate="G$1" pin="UART-RTS" pad="P$4"/>
+<connect gate="G$1" pin="UART-RX" pad="P$2"/>
+<connect gate="G$1" pin="UART-TX" pad="P$1"/>
+<connect gate="G$1" pin="USB-D+" pad="P$20"/>
+<connect gate="G$1" pin="USB-D-" pad="P$15"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -8872,6 +9024,10 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="X2" library="daGloane" deviceset="SPARKFUN-CONNECTORS_USB" device="-MICROB"/>
+<part name="U$5" library="daGloane" deviceset="BLUETOOTH" device=""/>
+<part name="C21" library="rcl" deviceset="C-EU" device="C0805" value="10µF/6.3V"/>
+<part name="3.3V1" library="supply1" deviceset="VCC" device="" value="3.3V"/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10633,6 +10789,10 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <text x="317.5" y="63.5" size="1.778" layer="94">FT230X</text>
 <text x="215.9" y="15.24" size="2.54" layer="91">Filter hinter charge pump?</text>
 <text x="111.76" y="88.9" size="1.778" layer="91" rot="MR0">boot1</text>
+<wire x1="373.38" y1="147.32" x2="264.16" y2="147.32" width="0.1524" layer="97"/>
+<wire x1="264.16" y1="147.32" x2="264.16" y2="81.28" width="0.1524" layer="97"/>
+<wire x1="264.16" y1="81.28" x2="373.38" y2="81.28" width="0.1524" layer="97"/>
+<text x="350.52" y="109.22" size="1.778" layer="97">UART or SPI?</text>
 </plain>
 <instances>
 <instance part="R16" gate="G$1" x="185.42" y="48.26" rot="R90"/>
@@ -10767,6 +10927,10 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <instance part="GND1" gate="1" x="132.08" y="83.82" rot="MR0"/>
 <instance part="GND6" gate="1" x="116.84" y="17.78" rot="MR0"/>
 <instance part="X2" gate="G$1" x="233.68" y="66.04" rot="R180"/>
+<instance part="U$5" gate="G$1" x="325.12" y="121.92"/>
+<instance part="C21" gate="G$1" x="289.56" y="99.06" rot="MR0"/>
+<instance part="3.3V1" gate="VCC" x="289.56" y="106.68" rot="MR0"/>
+<instance part="GND17" gate="1" x="299.72" y="86.36" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -10988,6 +11152,23 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="116.84" y1="25.4" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<pinref part="U$5" gate="G$1" pin="GND1"/>
+<wire x1="299.72" y1="99.06" x2="299.72" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="GND2"/>
+<wire x1="299.72" y1="96.52" x2="299.72" y2="93.98" width="0.1524" layer="91"/>
+<junction x="299.72" y="96.52"/>
+<pinref part="U$5" gate="G$1" pin="GND3"/>
+<wire x1="299.72" y1="93.98" x2="299.72" y2="91.44" width="0.1524" layer="91"/>
+<junction x="299.72" y="93.98"/>
+<wire x1="299.72" y1="91.44" x2="299.72" y2="88.9" width="0.1524" layer="91"/>
+<junction x="299.72" y="91.44"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="289.56" y1="93.98" x2="289.56" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="91.44" x2="299.72" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -11295,6 +11476,14 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="U1" gate="AN_POWER" pin="VDDA"/>
 <wire x1="53.34" y1="175.26" x2="48.26" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C21" gate="G$1" pin="1"/>
+<pinref part="3.3V1" gate="VCC" pin="VCC"/>
+<wire x1="289.56" y1="104.14" x2="289.56" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="3.3V"/>
+<wire x1="289.56" y1="101.6" x2="299.72" y2="101.6" width="0.1524" layer="91"/>
+<junction x="289.56" y="101.6"/>
 </segment>
 </net>
 <net name="USART_RX1" class="0">
