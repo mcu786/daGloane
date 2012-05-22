@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9670,28 +9670,24 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <part name="U$6" library="daGloane" deviceset="MTD6501C" device=""/>
 <part name="C22" library="rcl" deviceset="C-EU" device="C0603" value="1µF"/>
 <part name="C23" library="rcl" deviceset="C-EU" device="C0603" value="1µF"/>
-<part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="MOT1_A" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="MOT1_B" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="MOT1_C" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="U$7" library="daGloane" deviceset="MTD6501C" device=""/>
 <part name="C24" library="rcl" deviceset="C-EU" device="C0603" value="1µF"/>
 <part name="C25" library="rcl" deviceset="C-EU" device="C0603" value="1µF"/>
-<part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="MOT2_A" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="MOT2_B" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="MOT2_C" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="U$8" library="daGloane" deviceset="MTD6501C" device=""/>
 <part name="C26" library="rcl" deviceset="C-EU" device="C0603" value="1µF"/>
 <part name="C27" library="rcl" deviceset="C-EU" device="C0603" value="1µF"/>
-<part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="MOT3_A" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="MOT3_B" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="MOT3_C" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="U$9" library="daGloane" deviceset="MTD6501C" device=""/>
 <part name="C28" library="rcl" deviceset="C-EU" device="C0603" value="1µF"/>
 <part name="C29" library="rcl" deviceset="C-EU" device="C0603" value="1µF"/>
-<part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="MOT4_A" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="MOT4_B" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
 <part name="MOT4_C" library="wirepad" deviceset="WIREPAD" device="1,6/0,8"/>
@@ -11647,7 +11643,6 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <instance part="U$6" gate="G$1" x="416.56" y="-53.34"/>
 <instance part="C22" gate="G$1" x="414.02" y="-81.28" rot="R180"/>
 <instance part="C23" gate="G$1" x="401.32" y="-35.56" rot="R180"/>
-<instance part="GND19" gate="1" x="401.32" y="-43.18"/>
 <instance part="MOT1_A" gate="G$1" x="436.88" y="-48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="440.817" y="-48.9458" size="1.778" layer="95"/>
 </instance>
@@ -11660,7 +11655,6 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <instance part="U$7" gate="G$1" x="500.38" y="-53.34"/>
 <instance part="C24" gate="G$1" x="497.84" y="-81.28" rot="R180"/>
 <instance part="C25" gate="G$1" x="485.14" y="-35.56" rot="R180"/>
-<instance part="GND21" gate="1" x="485.14" y="-43.18"/>
 <instance part="MOT2_A" gate="G$1" x="520.7" y="-48.26" smashed="yes" rot="R180">
 <attribute name="NAME" x="524.637" y="-48.9458" size="1.778" layer="95"/>
 </instance>
@@ -11673,7 +11667,6 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <instance part="U$8" gate="G$1" x="416.56" y="-121.92"/>
 <instance part="C26" gate="G$1" x="414.02" y="-149.86" rot="R180"/>
 <instance part="C27" gate="G$1" x="401.32" y="-104.14" rot="R180"/>
-<instance part="GND23" gate="1" x="401.32" y="-111.76"/>
 <instance part="MOT3_A" gate="G$1" x="436.88" y="-116.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="440.817" y="-117.5258" size="1.778" layer="95"/>
 </instance>
@@ -11686,7 +11679,6 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <instance part="U$9" gate="G$1" x="500.38" y="-121.92"/>
 <instance part="C28" gate="G$1" x="497.84" y="-149.86" rot="R180"/>
 <instance part="C29" gate="G$1" x="485.14" y="-104.14" rot="R180"/>
-<instance part="GND25" gate="1" x="485.14" y="-111.76"/>
 <instance part="MOT4_A" gate="G$1" x="520.7" y="-116.84" smashed="yes" rot="R180">
 <attribute name="NAME" x="524.637" y="-117.5258" size="1.778" layer="95"/>
 </instance>
@@ -11995,26 +11987,6 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="-297.18" x2="200.66" y2="-299.72" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="-299.72" x2="210.82" y2="-299.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C23" gate="G$1" pin="1"/>
-<pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="401.32" y1="-40.64" x2="401.32" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C25" gate="G$1" pin="1"/>
-<pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="485.14" y1="-40.64" x2="485.14" y2="-38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C27" gate="G$1" pin="1"/>
-<pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="401.32" y1="-109.22" x2="401.32" y2="-106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C29" gate="G$1" pin="1"/>
-<pinref part="GND25" gate="1" pin="GND"/>
-<wire x1="485.14" y1="-109.22" x2="485.14" y2="-106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="S"/>
@@ -13057,39 +13029,55 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf'</description>
 <wire x1="419.1" y1="-86.36" x2="419.1" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="-83.82" x2="414.02" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="-86.36" x2="419.1" y2="-86.36" width="0.1524" layer="91"/>
-<wire x1="414.02" y1="-86.36" x2="388.62" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="-86.36" x2="401.32" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="414.02" y="-86.36"/>
 <label x="388.62" y="-86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="401.32" y1="-86.36" x2="388.62" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="-38.1" x2="401.32" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="401.32" y="-86.36"/>
 </segment>
 <segment>
-<wire x1="497.84" y1="-86.36" x2="472.44" y2="-86.36" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="-86.36" x2="485.14" y2="-86.36" width="0.1524" layer="91"/>
 <label x="472.44" y="-86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$7" gate="G$1" pin="GND"/>
 <pinref part="C24" gate="G$1" pin="1"/>
+<wire x1="485.14" y1="-86.36" x2="472.44" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="502.92" y1="-86.36" x2="502.92" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="497.84" y1="-83.82" x2="497.84" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="497.84" y1="-86.36" x2="502.92" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="497.84" y="-86.36"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<wire x1="485.14" y1="-38.1" x2="485.14" y2="-86.36" width="0.1524" layer="91"/>
+<junction x="485.14" y="-86.36"/>
 </segment>
 <segment>
-<wire x1="414.02" y1="-154.94" x2="388.62" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="-154.94" x2="401.32" y2="-154.94" width="0.1524" layer="91"/>
 <label x="388.62" y="-154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$8" gate="G$1" pin="GND"/>
 <pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="401.32" y1="-154.94" x2="388.62" y2="-154.94" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="-154.94" x2="419.1" y2="-142.24" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="-152.4" x2="414.02" y2="-154.94" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="-154.94" x2="419.1" y2="-154.94" width="0.1524" layer="91"/>
 <junction x="414.02" y="-154.94"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="401.32" y1="-106.68" x2="401.32" y2="-154.94" width="0.1524" layer="91"/>
+<junction x="401.32" y="-154.94"/>
 </segment>
 <segment>
-<wire x1="497.84" y1="-154.94" x2="472.44" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="497.84" y1="-154.94" x2="485.14" y2="-154.94" width="0.1524" layer="91"/>
 <label x="472.44" y="-154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U$9" gate="G$1" pin="GND"/>
 <pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="485.14" y1="-154.94" x2="472.44" y2="-154.94" width="0.1524" layer="91"/>
 <wire x1="502.92" y1="-154.94" x2="502.92" y2="-142.24" width="0.1524" layer="91"/>
 <wire x1="497.84" y1="-152.4" x2="497.84" y2="-154.94" width="0.1524" layer="91"/>
 <wire x1="497.84" y1="-154.94" x2="502.92" y2="-154.94" width="0.1524" layer="91"/>
 <junction x="497.84" y="-154.94"/>
+<pinref part="C29" gate="G$1" pin="1"/>
+<wire x1="485.14" y1="-106.68" x2="485.14" y2="-154.94" width="0.1524" layer="91"/>
+<junction x="485.14" y="-154.94"/>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="D"/>
