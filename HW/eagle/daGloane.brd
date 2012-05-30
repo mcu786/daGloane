@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1068,32 +1068,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </package>
 </packages>
 </library>
-<library name="SparkFun">
-<packages>
-<package name="1X02">
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-</package>
-</packages>
-</library>
 <library name="testpad">
 <description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
 Cream on SMD OFF.&lt;br&gt;
@@ -1489,6 +1463,15 @@ Based on the following sources:
 <text x="-1.3335" y="1.016" size="0.6096" layer="27">&gt;VALUE</text>
 <text x="-1.3335" y="-1.651" size="0.6096" layer="25">&gt;NAME</text>
 </package>
+<package name="1X02_50MIL">
+<pad name="1" x="-0.635" y="0" drill="0.7" diameter="1.1"/>
+<pad name="2" x="0.635" y="0" drill="0.7" diameter="1.1"/>
+<wire x1="-1.27" y1="1.0668" x2="1.27" y2="1.0668" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.0668" x2="1.27" y2="-1.0668" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.0668" x2="-1.27" y2="-1.0668" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-1.0668" x2="-1.27" y2="1.0668" width="0.127" layer="21"/>
+<text x="-0.8" y="-0.9" size="0.3048" layer="25">&gt;NAME</text>
+</package>
 </packages>
 </library>
 <library name="wirepad">
@@ -1765,7 +1748,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="30.111" y="62.889" size="0.6096" layer="25"/>
 <attribute name="VALUE" x="30.111" y="59.968" size="0.6096" layer="27"/>
 </element>
-<element name="BOOTMD" library="SparkFun" package="1X02" value="" x="39.2" y="61.6" smashed="yes">
+<element name="BOOTMD" library="daGloane" package="1X02_50MIL" value="" x="39.2" y="61.6" smashed="yes">
 <attribute name="NAME" x="37.8538" y="63.4288" size="0.6096" layer="25" ratio="10"/>
 <attribute name="VALUE" x="37.93" y="58.425" size="1.27" layer="27"/>
 </element>
@@ -2176,7 +2159,7 @@ design rules under a new name.</description>
 <contactref element="R17" pad="2"/>
 <contactref element="R20" pad="2"/>
 <contactref element="BOOTMD" pad="2"/>
-<wire x1="42.05" y1="59.2" x2="41.74" y2="61.6" width="0" layer="19" extent="1-1"/>
+<wire x1="42.05" y1="59.2" x2="39.835" y2="61.6" width="0" layer="19" extent="1-1"/>
 <wire x1="42.05" y1="57.1" x2="42.05" y2="59.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D-">
@@ -2343,7 +2326,7 @@ design rules under a new name.</description>
 <wire x1="33.4" y1="50.75" x2="35.5" y2="50.75" width="0" layer="19" extent="1-1"/>
 <wire x1="36.85" y1="57.1" x2="37.725" y2="54.6" width="0" layer="19" extent="1-1"/>
 <wire x1="36.75" y1="59.2" x2="36.85" y2="57.1" width="0" layer="19" extent="1-1"/>
-<wire x1="39.2" y1="61.6" x2="36.75" y2="59.2" width="0" layer="19" extent="1-1"/>
+<wire x1="38.565" y1="61.6" x2="36.75" y2="59.2" width="0" layer="19" extent="1-1"/>
 <wire x1="89.608609375" y1="25.533165625" x2="44.25" y2="48.2" width="0" layer="19" extent="1-16"/>
 <wire x1="90.669271875" y1="24.472503125" x2="89.608609375" y2="25.533165625" width="0" layer="19" extent="16-16"/>
 <wire x1="93.0239375" y1="25.72408125" x2="90.669271875" y2="24.472503125" width="0" layer="19" extent="16-16"/>
