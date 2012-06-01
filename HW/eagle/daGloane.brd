@@ -1115,20 +1115,6 @@ Based on the following sources:
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
-<package name="SOD123">
-<description>&lt;b&gt;Diode&lt;/b&gt;</description>
-<wire x1="-1.1" y1="0.7" x2="1.1" y2="0.7" width="0.254" layer="51"/>
-<wire x1="1.1" y1="0.7" x2="1.1" y2="-0.7" width="0.254" layer="51"/>
-<wire x1="1.1" y1="-0.7" x2="-1.1" y2="-0.7" width="0.254" layer="51"/>
-<wire x1="-1.1" y1="-0.7" x2="-1.1" y2="0.7" width="0.254" layer="51"/>
-<smd name="C" x="-1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
-<smd name="A" x="1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
-<text x="-1.1" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.1" y="-2.3" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.95" y1="-0.45" x2="-1.2" y2="0.4" layer="51"/>
-<rectangle x1="1.2" y1="-0.45" x2="1.95" y2="0.4" layer="51"/>
-<rectangle x1="-1.05" y1="-0.65" x2="-0.15" y2="0.7" layer="51"/>
-</package>
 </packages>
 </library>
 <library name="daGloane">
@@ -1483,21 +1469,6 @@ Based on the following sources:
 <smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
 <text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="-0.8" y="-2.4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-</package>
-<package name="1,6/0,8">
-<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<wire x1="-0.762" y1="0.762" x2="-0.508" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="0.762" x2="-0.762" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="0.762" x2="0.762" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="0.762" x2="0.508" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="-0.508" x2="0.762" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="-0.762" x2="0.508" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-0.508" y1="-0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="21"/>
-<wire x1="-0.762" y1="-0.762" x2="-0.762" y2="-0.508" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="0.635" width="0.1524" layer="51"/>
-<pad name="1" x="0" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-0.762" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0" y="0.6" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -1984,26 +1955,6 @@ design rules under a new name.</description>
 <element name="MOT4_C" library="wirepad" package="SMD1,27-2,54" value="WIREPADSMD1,27-254" x="1.3" y="-62.2"/>
 <element name="U$10" library="daGloane" package="MICRO3(SOT-23)" value="IRLM6344TRPBF" x="1.7" y="-72.4"/>
 <element name="R24" library="rcl" package="R0603" value="10k" x="1.5" y="-76.5"/>
-<element name="U$11" library="daGloane" package="MICRO3(SOT-23)" value="IRLM6344TRPBF" x="1.7" y="-80.6"/>
-<element name="MOTOR_1-" library="wirepad" package="1,6/0,8" value="WIREPAD1,6/0,8" x="1.3" y="-84.8"/>
-<element name="MOTOR_1+" library="wirepad" package="1,6/0,8" value="WIREPAD1,6/0,8" x="1.3" y="-88.6"/>
-<element name="R25" library="rcl" package="R0603" value="10k" x="1.5" y="-92.3"/>
-<element name="D1" library="diode" package="SOD123" value="MBR0520LT" x="2.7" y="-97.6"/>
-<element name="U$12" library="daGloane" package="MICRO3(SOT-23)" value="IRLM6344TRPBF" x="1.7" y="-120.3"/>
-<element name="MOTOR_2-" library="wirepad" package="1,6/0,8" value="WIREPAD1,6/0,8" x="1.3" y="-117.7"/>
-<element name="MOTOR_2+" library="wirepad" package="1,6/0,8" value="WIREPAD1,6/0,8" x="1.3" y="-113.9"/>
-<element name="R26" library="rcl" package="R0603" value="10k" x="1.5" y="-108.6"/>
-<element name="D2" library="diode" package="SOD123" value="MBR0520LT" x="2.7" y="-103.2"/>
-<element name="U$13" library="daGloane" package="MICRO3(SOT-23)" value="IRLM6344TRPBF" x="1.7" y="-141.6"/>
-<element name="MOTOR_3-" library="wirepad" package="1,6/0,8" value="WIREPAD1,6/0,8" x="1.3" y="-139"/>
-<element name="MOTOR_3+" library="wirepad" package="1,6/0,8" value="WIREPAD1,6/0,8" x="1.3" y="-135.2"/>
-<element name="R27" library="rcl" package="R0603" value="10k" x="1.5" y="-129.9"/>
-<element name="D4" library="diode" package="SOD123" value="MBR0520LT" x="2.7" y="-124.5"/>
-<element name="U$14" library="daGloane" package="MICRO3(SOT-23)" value="IRLM6344TRPBF" x="1.7" y="-162.9"/>
-<element name="MOTOR_4-" library="wirepad" package="1,6/0,8" value="WIREPAD1,6/0,8" x="1.3" y="-160.3"/>
-<element name="MOTOR_4+" library="wirepad" package="1,6/0,8" value="WIREPAD1,6/0,8" x="1.3" y="-156.5"/>
-<element name="R28" library="rcl" package="R0603" value="10k" x="1.5" y="-151.2"/>
-<element name="D5" library="diode" package="SOD123" value="MBR0520LT" x="2.7" y="-145.8"/>
 <element name="LED5" library="led" package="CHIPLED_0603" value="" x="-3.1" y="-162.5"/>
 <element name="R29" library="rcl" package="R0603" value="330" x="-4.5" y="-167"/>
 <element name="C30" library="rcl" package="C0805" value="10µF/6.3V" x="-4" y="-172.6"/>
@@ -2066,14 +2017,6 @@ design rules under a new name.</description>
 <contactref element="C21" pad="2"/>
 <contactref element="U$10" pad="2"/>
 <contactref element="R24" pad="1"/>
-<contactref element="U$11" pad="2"/>
-<contactref element="R25" pad="2"/>
-<contactref element="U$12" pad="2"/>
-<contactref element="R26" pad="2"/>
-<contactref element="U$13" pad="2"/>
-<contactref element="R27" pad="2"/>
-<contactref element="U$14" pad="2"/>
-<contactref element="R28" pad="2"/>
 <contactref element="C31" pad="2"/>
 <contactref element="C30" pad="2"/>
 <contactref element="C32" pad="1"/>
@@ -2081,15 +2024,7 @@ design rules under a new name.</description>
 <wire x1="-5.35" y1="-192.1" x2="-5.35" y2="-196.9" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.05" y1="-178.7" x2="-5.35" y2="-192.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-3.05" y1="-172.6" x2="-3.05" y2="-178.7" width="0" layer="19" extent="1-1"/>
-<wire x1="2.65" y1="-163.785" x2="-3.05" y2="-172.6" width="0" layer="19" extent="1-1"/>
-<wire x1="2.35" y1="-151.2" x2="2.65" y2="-163.785" width="0" layer="19" extent="1-1"/>
-<wire x1="2.65" y1="-142.485" x2="2.35" y2="-151.2" width="0" layer="19" extent="1-1"/>
-<wire x1="2.35" y1="-129.9" x2="2.65" y2="-142.485" width="0" layer="19" extent="1-1"/>
-<wire x1="2.65" y1="-121.185" x2="2.35" y2="-129.9" width="0" layer="19" extent="1-1"/>
-<wire x1="2.35" y1="-108.6" x2="2.65" y2="-121.185" width="0" layer="19" extent="1-1"/>
-<wire x1="2.35" y1="-92.3" x2="2.35" y2="-108.6" width="0" layer="19" extent="1-1"/>
-<wire x1="2.65" y1="-81.485" x2="2.35" y2="-92.3" width="0" layer="19" extent="1-1"/>
-<wire x1="0.65" y1="-76.5" x2="2.65" y2="-81.485" width="0" layer="19" extent="1-1"/>
+<wire x1="0.65" y1="-76.5" x2="-3.05" y2="-172.6" width="0" layer="19" extent="1-1"/>
 <wire x1="2.65" y1="-73.285" x2="0.65" y2="-76.5" width="0" layer="19" extent="1-1"/>
 <wire x1="43" y1="22.5" x2="2.65" y2="-73.285" width="0" layer="19" extent="1-1"/>
 <wire x1="45.15" y1="25.5" x2="43" y2="22.5" width="0" layer="19" extent="1-1"/>
@@ -2190,28 +2125,12 @@ design rules under a new name.</description>
 <contactref element="C27" pad="2"/>
 <contactref element="U$9" pad="7"/>
 <contactref element="C29" pad="2"/>
-<contactref element="MOTOR_1+" pad="1"/>
-<contactref element="D1" pad="C"/>
-<contactref element="MOTOR_2+" pad="1"/>
-<contactref element="D2" pad="C"/>
-<contactref element="MOTOR_3+" pad="1"/>
-<contactref element="D4" pad="C"/>
-<contactref element="MOTOR_4+" pad="1"/>
-<contactref element="D5" pad="C"/>
 <contactref element="C30" pad="1"/>
 <contactref element="L2" pad="2"/>
 <contactref element="C32" pad="2"/>
 <wire x1="-3.31" y1="-187.6" x2="-3.65" y2="-192.1" width="0" layer="19" extent="1-1"/>
 <wire x1="-4.95" y1="-172.6" x2="-3.31" y2="-187.6" width="0" layer="19" extent="1-1"/>
-<wire x1="1.3" y1="-156.5" x2="-4.95" y2="-172.6" width="0" layer="19" extent="1-1"/>
-<wire x1="0.8" y1="-145.8" x2="1.3" y2="-156.5" width="0" layer="19" extent="1-1"/>
-<wire x1="1.3" y1="-135.2" x2="0.8" y2="-145.8" width="0" layer="19" extent="1-1"/>
-<wire x1="0.8" y1="-124.5" x2="1.3" y2="-135.2" width="0" layer="19" extent="1-1"/>
-<wire x1="1.3" y1="-113.9" x2="0.8" y2="-124.5" width="0" layer="19" extent="1-1"/>
-<wire x1="0.8" y1="-103.2" x2="1.3" y2="-113.9" width="0" layer="19" extent="1-1"/>
-<wire x1="0.8" y1="-97.6" x2="0.8" y2="-103.2" width="0" layer="19" extent="1-1"/>
-<wire x1="1.3" y1="-88.6" x2="0.8" y2="-97.6" width="0" layer="19" extent="1-1"/>
-<wire x1="2.35" y1="-57" x2="1.3" y2="-88.6" width="0" layer="19" extent="1-1"/>
+<wire x1="2.35" y1="-57" x2="-4.95" y2="-172.6" width="0" layer="19" extent="1-1"/>
 <wire x1="1.965" y1="-48.3" x2="2.35" y2="-57" width="0" layer="19" extent="1-1"/>
 <wire x1="2.35" y1="-33.5" x2="1.965" y2="-48.3" width="0" layer="19" extent="1-1"/>
 <wire x1="1.965" y1="-24.8" x2="2.35" y2="-33.5" width="0" layer="19" extent="1-1"/>
@@ -2507,11 +2426,7 @@ design rules under a new name.</description>
 <signal name="MOT4">
 <contactref element="U1" pad="32"/>
 <contactref element="U$9" pad="8"/>
-<contactref element="U$14" pad="1"/>
-<contactref element="R28" pad="1"/>
-<wire x1="0.65" y1="-151.2" x2="0.75" y2="-163.785" width="0" layer="19" extent="1-1"/>
-<wire x1="0.695" y1="-48.3" x2="0.65" y2="-151.2" width="0" layer="19" extent="1-1"/>
-<wire x1="40.5" y1="55.375" x2="0.695" y2="-48.3" width="0" layer="19" extent="1-1"/>
+<wire x1="0.695" y1="-48.3" x2="40.5" y2="55.375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="LED2" pad="C"/>
@@ -2541,29 +2456,17 @@ design rules under a new name.</description>
 <signal name="MOT1">
 <contactref element="U1" pad="15"/>
 <contactref element="U$6" pad="8"/>
-<contactref element="U$11" pad="1"/>
-<contactref element="R25" pad="1"/>
-<wire x1="0.75" y1="-81.485" x2="0.65" y2="-92.3" width="0" layer="19" extent="1-1"/>
-<wire x1="21.92575" y1="13.899725" x2="0.75" y2="-81.485" width="0" layer="19" extent="1-1"/>
-<wire x1="41" y1="49.825" x2="21.92575" y2="13.899725" width="0" layer="19" extent="1-1"/>
+<wire x1="21.92575" y1="13.899725" x2="41" y2="49.825" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOT2">
 <contactref element="U1" pad="16"/>
 <contactref element="U$7" pad="8"/>
-<contactref element="U$12" pad="1"/>
-<contactref element="R26" pad="1"/>
-<wire x1="0.65" y1="-108.6" x2="0.75" y2="-121.185" width="0" layer="19" extent="1-1"/>
-<wire x1="0.695" y1="-1.3" x2="0.65" y2="-108.6" width="0" layer="19" extent="1-1"/>
-<wire x1="41.5" y1="49.825" x2="0.695" y2="-1.3" width="0" layer="19" extent="1-1"/>
+<wire x1="0.695" y1="-1.3" x2="41.5" y2="49.825" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOT3">
 <contactref element="U1" pad="31"/>
 <contactref element="U$8" pad="8"/>
-<contactref element="U$13" pad="1"/>
-<contactref element="R27" pad="1"/>
-<wire x1="0.65" y1="-129.9" x2="0.75" y2="-142.485" width="0" layer="19" extent="1-1"/>
-<wire x1="0.695" y1="-24.8" x2="0.65" y2="-129.9" width="0" layer="19" extent="1-1"/>
-<wire x1="41" y1="55.375" x2="0.695" y2="-24.8" width="0" layer="19" extent="1-1"/>
+<wire x1="0.695" y1="-24.8" x2="41" y2="55.375" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MOT1_A">
 <contactref element="U$6" pad="3"/>
@@ -2675,34 +2578,6 @@ design rules under a new name.</description>
 <wire x1="24.619828125" y1="11.205646875" x2="5.95" y2="-2.7" width="0" layer="19" extent="1-1"/>
 <wire x1="26.84368125" y1="14.002259375" x2="24.619828125" y2="11.205646875" width="0" layer="19" extent="1-1"/>
 <wire x1="24.934490625" y1="14.99220625" x2="26.84368125" y2="14.002259375" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$39">
-<contactref element="U$11" pad="3"/>
-<contactref element="MOTOR_1-" pad="1"/>
-<contactref element="D1" pad="A"/>
-<wire x1="1.3" y1="-84.8" x2="4.6" y2="-97.6" width="0" layer="19" extent="1-1"/>
-<wire x1="1.7" y1="-79.715" x2="1.3" y2="-84.8" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$40">
-<contactref element="U$12" pad="3"/>
-<contactref element="MOTOR_2-" pad="1"/>
-<contactref element="D2" pad="A"/>
-<wire x1="1.3" y1="-117.7" x2="1.7" y2="-119.415" width="0" layer="19" extent="1-1"/>
-<wire x1="4.6" y1="-103.2" x2="1.3" y2="-117.7" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$41">
-<contactref element="U$13" pad="3"/>
-<contactref element="MOTOR_3-" pad="1"/>
-<contactref element="D4" pad="A"/>
-<wire x1="1.3" y1="-139" x2="1.7" y2="-140.715" width="0" layer="19" extent="1-1"/>
-<wire x1="4.6" y1="-124.5" x2="1.3" y2="-139" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$42">
-<contactref element="U$14" pad="3"/>
-<contactref element="MOTOR_4-" pad="1"/>
-<contactref element="D5" pad="A"/>
-<wire x1="1.3" y1="-160.3" x2="1.7" y2="-162.015" width="0" layer="19" extent="1-1"/>
-<wire x1="4.6" y1="-145.8" x2="1.3" y2="-160.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$43">
 <contactref element="U$2" pad="1"/>
