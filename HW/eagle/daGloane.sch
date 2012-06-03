@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11335,7 +11335,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <instance part="U$5" gate="G$1" x="231.14" y="-269.24"/>
 <instance part="C21" gate="G$1" x="195.58" y="-292.1" rot="MR0"/>
 <instance part="3.3V1" gate="VCC" x="195.58" y="-281.94" rot="MR0"/>
-<instance part="GND17" gate="1" x="205.74" y="-304.8" rot="MR0"/>
+<instance part="GND17" gate="1" x="203.2" y="-304.8" rot="MR0"/>
 <instance part="FRAME1" gate="G$1" x="0" y="-200.66"/>
 <instance part="FRAME1" gate="G$2" x="162.56" y="-200.66"/>
 <instance part="FRAME3" gate="G$1" x="0" y="-396.24"/>
@@ -11654,23 +11654,6 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="GND"/>
-<pinref part="U$5" gate="G$1" pin="GND1"/>
-<wire x1="205.74" y1="-292.1" x2="205.74" y2="-294.64" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="GND2"/>
-<wire x1="205.74" y1="-294.64" x2="205.74" y2="-297.18" width="0.1524" layer="91"/>
-<junction x="205.74" y="-294.64"/>
-<pinref part="U$5" gate="G$1" pin="GND3"/>
-<wire x1="205.74" y1="-297.18" x2="205.74" y2="-299.72" width="0.1524" layer="91"/>
-<junction x="205.74" y="-297.18"/>
-<wire x1="205.74" y1="-299.72" x2="205.74" y2="-302.26" width="0.1524" layer="91"/>
-<junction x="205.74" y="-299.72"/>
-<pinref part="GND17" gate="1" pin="GND"/>
-<pinref part="C21" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="-297.18" x2="195.58" y2="-299.72" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="-299.72" x2="205.74" y2="-299.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U$10" gate="G$1" pin="S"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="330.2" y1="-109.22" x2="330.2" y2="-104.14" width="0.1524" layer="91"/>
@@ -11696,6 +11679,27 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="GND25" gate="1" pin="GND"/>
 <wire x1="233.68" y1="-86.36" x2="233.68" y2="-96.52" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="205.74" y1="-292.1" x2="203.2" y2="-292.1" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-292.1" x2="203.2" y2="-294.64" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="GND2"/>
+<wire x1="203.2" y1="-294.64" x2="203.2" y2="-297.18" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-297.18" x2="203.2" y2="-299.72" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-299.72" x2="203.2" y2="-302.26" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-297.18" x2="203.2" y2="-297.18" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="GND1"/>
+<wire x1="205.74" y1="-294.64" x2="203.2" y2="-294.64" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="GND3"/>
+<pinref part="C21" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="-297.18" x2="195.58" y2="-299.72" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="-299.72" x2="203.2" y2="-299.72" width="0.1524" layer="91"/>
+<junction x="203.2" y="-299.72"/>
+<wire x1="203.2" y1="-299.72" x2="205.74" y2="-299.72" width="0.1524" layer="91"/>
+<junction x="203.2" y="-297.18"/>
+<junction x="203.2" y="-294.64"/>
+</segment>
 </net>
 <net name="LED1" class="0">
 <segment>
@@ -11719,10 +11723,10 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 </segment>
 <segment>
 <wire x1="119.38" y1="71.12" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="71.12" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="76.2" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="71.12" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
 <label x="119.38" y="71.12" size="1.778" layer="95" xref="yes"/>
-<pinref part="U1" gate="PORTB_L" pin="PB7"/>
+<pinref part="U1" gate="PORTA_H" pin="PA15"/>
+<wire x1="101.6" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
@@ -12047,13 +12051,15 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <pinref part="C21" gate="G$1" pin="1"/>
 <pinref part="3.3V1" gate="VCC" pin="VCC"/>
 <wire x1="195.58" y1="-284.48" x2="195.58" y2="-287.02" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="3.3V"/>
 <wire x1="195.58" y1="-287.02" x2="195.58" y2="-289.56" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="-289.56" x2="205.74" y2="-289.56" width="0.1524" layer="91"/>
-<junction x="195.58" y="-289.56"/>
 <pinref part="U$5" gate="G$1" pin="RESET"/>
-<wire x1="205.74" y1="-287.02" x2="195.58" y2="-287.02" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-287.02" x2="203.2" y2="-287.02" width="0.1524" layer="91"/>
 <junction x="195.58" y="-287.02"/>
+<pinref part="U$5" gate="G$1" pin="3.3V"/>
+<wire x1="203.2" y1="-287.02" x2="195.58" y2="-287.02" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-289.56" x2="203.2" y2="-289.56" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-289.56" x2="203.2" y2="-287.02" width="0.1524" layer="91"/>
+<junction x="203.2" y="-287.02"/>
 </segment>
 <segment>
 <pinref part="U$10" gate="G$1" pin="G"/>
