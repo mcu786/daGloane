@@ -11206,7 +11206,7 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <wire x1="215.9" y1="111.76" x2="342.9" y2="111.76" width="0.1524" layer="97"/>
 <text x="88.9" y="-236.22" size="5.08" layer="91">Todo:</text>
 <text x="109.22" y="-233.68" size="2.54" layer="91">easiest way to configure Module?</text>
-<text x="444.5" y="-172.72" size="5.08" layer="94">BLDC Version</text>
+<text x="444.5" y="-175.26" size="5.08" layer="94">BLDC Version</text>
 </plain>
 <instances>
 <instance part="R16" gate="G$1" x="185.42" y="48.26" rot="R90"/>
