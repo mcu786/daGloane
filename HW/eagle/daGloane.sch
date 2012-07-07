@@ -9251,8 +9251,8 @@ Basic 0.1" spaced jumper. Use with breakaway headers.</description>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="C4" library="rcl" deviceset="C-EU" device="C0603" value="1µF"/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="LIPO+" library="testpad" deviceset="TPS" device="PAD1-13Y"/>
-<part name="LIPO-" library="testpad" deviceset="TPS" device="PAD1-13Y"/>
+<part name="LIPO+" library="testpad" deviceset="TPS" device="PAD1-13"/>
+<part name="LIPO-" library="testpad" deviceset="TPS" device="PAD1-13"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="2k"/>
 <part name="IC1" library="daGloane" deviceset="MCP1252-33X50" device=""/>
 <part name="C13" library="rcl" deviceset="C-EU" device="C0805" value="10µF/6.3V"/>
